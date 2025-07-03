@@ -23,7 +23,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 400px;
+    width: 90%;
+    max-width: 400px;
+
 }
 
 .border-box h1 {
@@ -65,7 +67,9 @@ form button {
     display: block;
     margin-bottom: 10px;
     font-size: 18px;
-    width: 400px;
+    width: 90%;
+    max-width: 400px;
+
 }
 
 form input {
@@ -119,7 +123,7 @@ header {
 .forgot-password label input {
     accent-color: #162938;
     margin-right: 3px;
-    
+
 }
 
 .forgot-password a {
@@ -140,9 +144,12 @@ header {
     display: block;
     margin-bottom: 10px;
     font-size: 18px;
-    width: 400px;
+    width: 90%;
+    max-width: 400px;
+
 }
-.homepage{
+
+.homepage {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,7 +159,7 @@ header {
     background-position: center;
 }
 
-.logpage{
+.logpage {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,22 +169,57 @@ header {
     background-position: center;
 }
 
-.signpage{
-  display: flex;
+.signpage {
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: url('blue_eyes_white_alternative_dragon_by_deiko44dz_dfmcxxb-fullview.jpg') no-repeat;
     background-size: cover;
-    background-position: center;   
+    background-position: center;
 }
 
-.forgotpage{
-     display: flex;
+.forgotpage {
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: url('kaiba2.webp') no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 480px) {
+
+    .login-border-box,
+    .form-box-register,
+    .forgot-box {
+        padding: 20px;
+    }
+
+    .login-border-box h1,
+    .form-box-register h1,
+    .forgot-box h1 {
+        font-size: 1.5em;
+    }
+
+    form input {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    form button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .forgot-password {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 0.9em;
+    }
+
+    .forgot-password label {
+        margin-bottom: 10px;
+    }
 }
