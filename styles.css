@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #060606;
+}
+
+.login-border-box {
+    border-radius: 5%;
+    background: #f7f7f7;
+    box-shadow: 20px 20px 60px #d9d9d9,
+        -20px -20px 60px #ffffff;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+.border-box h1 {
+    font-size: 2em;
+    color: #060606;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form h1 {
+    font-size: 2em;
+    color: #060606;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+form button {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(122, 231, 13);
+}
+
+.form-box-register {
+    border-radius: 5%;
+    background: #f7f7f7;
+    box-shadow: 20px 20px 60px #d9d9d9,
+        -20px -20px 60px #ffffff;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 400px;
+}
+
+form input {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 100%;
+    padding: 5px;
+
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    width: 150px;
+    /* Adjust the width of the logo */
+    height: auto;
+    /* Maintain the aspect ratio */
+    margin-right: 20px;
+}
+
+.menu a {
+    position: relative;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.forgot-password {
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot-password label input {
+    accent-color: #162938;
+    margin-right: 3px;
+    
+}
+
+.forgot-password a {
+    color: #162938;
+    text-decoration: none;
+}
+
+.forgot-box {
+    border-radius: 5%;
+    background: #f7f7f7;
+    box-shadow: 20px 20px 60px #d9d9d9,
+        -20px -20px 60px #ffffff;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 400px;
+}
+.homepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('kaiba.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('kaiba1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.signpage{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('blue_eyes_white_alternative_dragon_by_deiko44dz_dfmcxxb-fullview.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
+.forgotpage{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('kaiba2.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
